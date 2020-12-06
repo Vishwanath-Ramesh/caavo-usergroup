@@ -1,8 +1,7 @@
 import axios from 'axios'
-import configs from '../../configs/configs'
 
 const instance = axios.create({
-  baseURL: configs.serverConfig?.baseURL ?? '',
+  baseURL: 'https://s3-ap-southeast-1.amazonaws.com',
   headers: {
     'content-type': 'application/json',
   },

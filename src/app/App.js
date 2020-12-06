@@ -6,11 +6,9 @@ import './App.css'
 
 const App = () => {
   return (
-    <div className="app">
-      <ErrorBoundary>
-        <Routes />
-      </ErrorBoundary>
-    </div>
+    <ErrorBoundary>
+      <Routes />
+    </ErrorBoundary>
   )
 }
 

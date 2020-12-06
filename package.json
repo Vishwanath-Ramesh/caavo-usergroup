@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-boilerplate",
+  "name": "caavo-usergroup",
   "version": "1.0.0",
-  "description": "A React boilerplate setup with webpack and babel setup",
+  "description": "This is a project created when participating in Hackerearth's 'Caavo UI Developer Hiring Challenge - 2020'",
   "main": "index.js",
   "scripts": {
     "babel": "babel src --out-dir lib",
@@ -24,7 +24,10 @@
   "author": "Vishwanath R",
   "license": "ISC",
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
+    "@material-ui/icons": "^4.11.2",
     "axios": "^0.21.0",
+    "lodash": "^4.17.20",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -81,6 +84,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vishwanath-Ramesh/react-webpack-boilerplate.git"
+    "url": "git+https://github.com/Vishwanath-Ramesh/caavo-usergroup"
   }
 }
